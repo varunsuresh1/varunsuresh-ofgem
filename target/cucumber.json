@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-28T03:28:38.929Z",
+        "line": 4,
+        "name": "User access mail account and deletes unnecessary mails",
+        "description": "",
+        "id": "of-gem-mail-checker;user-access-mail-account-and-deletes-unnecessary-mails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15114559300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am a Of gem customer",
+            "match": {
+              "location": "cucumber.Stepdefs.Ofgem.i_am_a_Of_gem_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4619011800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access my Mail Id and find ofgem mail I delete it",
+            "match": {
+              "location": "cucumber.Stepdefs.Ofgem.i_access_my_Mail_Id_and_find_ofgem_mail_I_delete_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13987500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I delete my cookies",
+            "match": {
+              "location": "cucumber.Stepdefs.Ofgem.i_delete_my_cookies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@suite"
+          }
+        ]
+      }
+    ],
+    "name": "Of gem mail checker",
+    "description": "",
+    "id": "of-gem-mail-checker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/OfgemUser.feature",
+    "tags": [
+      {
+        "name": "@suite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
