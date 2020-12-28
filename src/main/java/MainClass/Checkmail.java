@@ -66,7 +66,7 @@ public class Checkmail {
             // connects to the message store
             Store store = session.getStore("imap");
             store.connect(userName, password);
-            System.out.println("Connected to Email server�.");
+            System.out.println("Connected to Email server.");
             // opens the inbox folder
             Folder folderInbox = store.getFolder("INBOX");
             folderInbox.open(Folder.READ_WRITE);
